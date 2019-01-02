@@ -12,6 +12,9 @@ import AnimatedTimings from './components/AnimatedTimings'
 import AnimationsEasing from './components/AnimationsEasing'
 import AnimatedTimingsMoreExample from "./components/AnimatedTimingsMoreExample";
 import AnimationsSpring from "./components/AnimationsSpring";
+import AnimationsParallel from "./components/AnimationsParallel";
+import AnimationsSequence from "./components/AnimationsSequence";
+import AnimationsStagger from "./components/AnimationsStagger";
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -32,7 +35,10 @@ export default class App extends Component<Props>
         {/*<AnimatedTimings />*/}
         {/*<AnimationsEasing />*/}
         {/*<AnimatedTimingsMoreExample />*/}
-        <AnimationsSpring />
+        {/*<AnimationsSpring />*/}
+        {/*<AnimationsParallel />*/}
+        {/*<AnimationsSequence />*/}
+        <AnimationsStagger />
       </View>
     );
   }
